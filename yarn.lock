@@ -12,6 +12,13 @@ acorn@^5.2.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
   integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
 
+aframe-animation-component@^5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/aframe-animation-component/-/aframe-animation-component-5.1.2.tgz#f08becfcde91b0c9d2bf308b03cbdacd85c320d0"
+  integrity sha512-DGUsRGB6TaN0rRKGYRrU0M1eblhpnMMYR1Vhulh0d5TxQRNszWJ5I1aHB/YW6wcj0gO89hLabSe5Is5NFpUeGg==
+  dependencies:
+    animejs "2.2.0"
+
 aframe@^0.8.2:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/aframe/-/aframe-0.8.2.tgz#435dd7c7d2f059316af87f4a9783427b0617e11f"
@@ -41,6 +48,11 @@ an-array@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/an-array/-/an-array-1.0.0.tgz#c125a5bb8257778e35f4b4f6aa9c7d0fa9e42665"
   integrity sha1-wSWlu4JXd4419LT2qpx9D6nkJmU=
+
+animejs@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/animejs/-/animejs-2.2.0.tgz#35eefdfc535b81949c9cb06f0b3e60c02e6fdc80"
+  integrity sha1-Ne79/FNbgZScnLBvCz5gwC5v3IA=
 
 arr-diff@^2.0.0:
   version "2.0.0"
@@ -203,7 +215,7 @@ css@1.6.x:
     css-parse "1.7.0"
     css-stringify "1.4.1"
 
-"debug@github:ngokevin/debug#noTimestamp":
+debug@ngokevin/debug#noTimestamp:
   version "2.2.0"
   resolved "https://codeload.github.com/ngokevin/debug/tar.gz/ef5f8e66d49ce8bc64c6f282c15f8b7164409e3a"
 
@@ -246,7 +258,7 @@ detective@^4.3.1:
     acorn "^5.2.1"
     defined "^1.0.0"
 
-"document-register-element@github:dmarcos/document-register-element#8ccc532b7":
+document-register-element@dmarcos/document-register-element#8ccc532b7:
   version "0.5.4"
   resolved "https://codeload.github.com/dmarcos/document-register-element/tar.gz/8ccc532b7f3744be954574caf3072a5fd260ca90"
 
