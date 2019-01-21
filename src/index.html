@@ -9,8 +9,9 @@
           <!-- scripts -->
           <script id="plane" type="text/html">
             <a-entity class="link"
-              geometry="primitive: plane; height: 2; width: 2"
-              position="0 0 -5"
+              geometry="primitive: plane; height: 4; width: 4"
+              position="0 0 -10"
+              color="#ccc"
               material="shader: flat; side: double; src: #cubes-thumb"
               sound="on: click; src: #click-sound"></a-entity>
           </script>
@@ -23,7 +24,11 @@
 
       <a-sky id="home" src="#home"></a-sky>
       <!-- Links -->
-      <a-entity class="link"></a-entity>
+      <a-entity id="test-link" 
+      geometry="primitive: box; width: 2; height: 2; depth: 1" 
+      link="href: scene1.html; visualAspectEnabled: false"  
+      position="0 0 -10"
+      material="color: orange"></a-entity>
       <!-- Camera + Cursor. -->
       <a-camera>
           <a-cursor id="cursor">
@@ -34,5 +39,7 @@
           </a-cursor>
         </a-camera>
     </a-scene>
+    <!-- list scene links here so Parcel can find them and include the files -->
+    <a href="./scene1.html">Link to scene 1</a>
   </body>
 </html>
