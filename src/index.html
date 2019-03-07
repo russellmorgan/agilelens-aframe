@@ -4,7 +4,7 @@
     <script src="index.js"></script>
   </head>
   <body>
-    <a-scene>
+    <a-scene loading-screen="dotsColor: red; backgroundColor: black">
       <a-assets>
           <!-- scripts -->
           <script id="plane" type="text/html">
@@ -19,7 +19,6 @@
           <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
           <!-- images -->
           <img id="home" crossorigin="anonymous" src="assets/agile-home.png">
-          <img id="cubes-thumb" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg">
       </a-assets>
 
       <a-sky id="home" src="#home"></a-sky>

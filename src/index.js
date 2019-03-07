@@ -1,7 +1,7 @@
 import { aframe} from 'aframe';
 
-AFRAME.registerComponent('thumbnail-links', {
+AFRAME.registerComponent('fadeLinks', {
   init: function () {
-    console.log('Hello, World! I will be a thumbnail someday...');
+    console.log('Fade link time');
   }
 });
